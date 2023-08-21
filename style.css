@@ -1,0 +1,60 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+  
+h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+  
+#date-form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+#date {
+    border: 2px solid orange;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    background-color: yellow;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+#image-info {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 30px ;
+    padding: 100px;
+    border: 2px solid orange;
+    background-color: rgba(255, 165, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+}
+  
+#image-info {
+    text-align: center;
+    margin: 0;
+    display: none;
+    margin: 0 auto;
+    max-width: 1300px;
+    height: auto;
+}
+  
+  
+  
