@@ -5,7 +5,7 @@ form.addEventListener('submit', async function (event) {
   event.preventDefault();
 
   const dateInput = form.elements.date.value;
-  const apiKey = 'akfcyWogmlDXFt1usDBV9UabJINO7TBitGFb20cI'; // Replace with your NASA API key
+  const apiKey = 'API_KEY_HERE'; // Replace with your NASA API key
 
   const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${dateInput}`;
 
